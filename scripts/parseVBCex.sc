@@ -1,6 +1,10 @@
 import edu.holycross.shot.cite._
 import scala.io.Source
 
+val f = "cex/vb-quires.cex"
+val outfile = "views/vbquires.md"
+
+
 val hmtIctBase = "http://www.homermultitext.org/ict2/"
 val hmtIipSrvBase = "http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/"
 
@@ -17,8 +21,6 @@ def iipSrvUrl(img: Cite2Urn,  width: Int = 250, baseUrl: String = hmtIipSrvBase)
 
 
 
-val f = "vb-quires.cex"
-
 val lines = Source.fromFile(f).getLines.toVector
 
 val content = for (l <- lines.tail) yield {
@@ -30,13 +32,15 @@ val content = for (l <- lines.tail) yield {
     val img = Cite2Urn(cols(2))
     s"[![${folios.rangeBegin.trim}](${iipSrvUrl(img)})](${hmtIctBase}?urn=${img})"
   } catch {
-    case _ : Throwable => ""
+    case _ : Throwable => {
+        if (cols.size > 2) {cols(2)} else {""}
+    }
   }
   val img2Link = try {
     val img = Cite2Urn(cols(3))
     s"[![${folios.rangeBegin.trim}](${iipSrvUrl(img)})](${hmtIctBase}?urn=${img})"
   } catch {
-    case _ : Throwable => ""
+    case _ : Throwable =>   if (cols.size > 3) {cols(3)} else {""}
   }
 
   val notes = if (cols.size  > 4) {
@@ -67,4 +71,4 @@ Summer, 2012
 
 
 import java.io.PrintWriter
-new PrintWriter("vbquires.md"){write(hdr + content.mkString("\n") +"\n"); close;}
+new PrintWriter(outfile){write(hdr + content.mkString("\n") +"\n"); close;}
