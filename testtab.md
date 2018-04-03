@@ -1,8 +1,0 @@
-testtable
-
-
-
-| Image: front                                                                                                                                                                                                                                                                                        | Image: back   | Covers       | Observations                                                                                              |
-|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------|:-------------|:----------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                                                                                                                                                                     |               | folios 1r-8v | The first folio is missing its quire number due to the poor condition of  the folio.                      |
-| [9r ](http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom//hmt/vbimg/2017a/VB009RN_0453.tif&RGN=0.09580,0.8766,0.05785,0.02531&WID=150&CVT=JPEG)](http://www.homermultitext.org/ict2/?urn=urn:cite2:hmt:vbimg.2017a:VB009RN_0453@0.09580,0.8766,0.05785,0.02531) | folios 9r-16v |              | folios 9r-16v |  The beta on 9r is very faint, but the surrounding asterisks and markings are very clear. |
