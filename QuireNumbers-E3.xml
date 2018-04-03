@@ -1,0 +1,536 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:math="http://www.w3.org/1998/Math/MathML"
+  xmlns:svg="http://www.w3.org/2000/svg" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quire Arrangement of the Υ.1.1</title>
+        <author>Neil Curran</author><author>Stephanie Lindeborg</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished working notebook for summer, 2012, College of the Holy Cross volunteers</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born-digital work</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>A sample TEI file with table of paleographic notes following the conventions of the Homer
+        Multitext project.</p>
+      <p>[Documentation to be supplied here.]</p>
+      <div>
+        <table>
+          <row role="label">
+            <cell>URN citation of image</cell>
+            <cell>Folio</cell>
+            <cell>Gather Side</cell>
+            <cell>Number</cell>
+            <cell>Notes</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-008r:0.8557,0.7409,0.016,0.0191</cell>
+            <cell>urn:cite:hmt:e3.e3-8r</cell>
+            <cell>top</cell>
+            <cell>2</cell>
+            <cell>Β</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-015v:0.8526,0.9085,0.0166,0.0156</cell>
+            <cell>urn:cite:hmt:e3.e3-15v</cell>
+            <cell>bottom</cell>
+            <cell>2</cell>
+            <cell>Β</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-016r:0.1557,0.8103,0.0249,0.0216</cell>
+            <cell>urn:cite:hmt:e3.e3-16r</cell>
+            <cell>top</cell>
+            <cell>3</cell>
+            <cell>Γ</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-024r:0.1531,0.7658,0.0323,0.0195</cell>
+            <cell>urn:cite:hmt:e3.e3-24r</cell>
+            <cell>top</cell>
+            <cell>4</cell>
+            <cell>Δ</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-031v:0.8494,0.9048,0.024,0.0184</cell>
+            <cell>urn:cite:hmt:e3.e3-31v</cell>
+            <cell>bottom</cell>
+            <cell>4</cell>
+            <cell>Δ </cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-032r:0.1483,0.7968,0.0269,0.0266</cell>
+            <cell>urn:cite:hmt:e3.e3-32r</cell>
+            <cell>top</cell>
+            <cell>5</cell>
+            <cell>Ε</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-039v:0.9183,0.8232,0.0157,0.0191</cell>
+            <cell>urn:cite:hmt:e3.e3-39v</cell>
+            <cell>bottom</cell>
+            <cell>5</cell>
+            <cell>Ε</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-040r:0.7446,0.8135,0.0266,0.0182</cell>
+            <cell>urn:cite:hmt:e3.e3-40r</cell>
+            <cell>top</cell>
+            <cell>6</cell>
+            <cell>Ϛ</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-047v:0.9249,0.8195,0.0177,0.0176</cell>
+            <cell>urn:cite:hmt:e3.e3-47v</cell>
+            <cell>bottom</cell>
+            <cell>6</cell>
+            <cell>Ϛ</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-048r:0.8097,0.8202,0.016,0.018</cell>
+            <cell>urn:cite:hmt:e3.e3-48r</cell>
+            <cell>top</cell>
+            <cell>7</cell>
+            <cell>Ζ, cut off</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-056r:0.8071,0.8099,0.0163,0.0178</cell>
+            <cell>urn:cite:hmt:e3.e3-56r</cell>
+            <cell>top</cell>
+            <cell>8</cell>
+            <cell>Η</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-063r:0.6971,0.8247,0.0214,0.0161</cell>
+            <cell>urn:cite:hmt:e3.e3-63r</cell>
+            <cell>top</cell>
+            <cell>9</cell>
+            <cell>Θ, replacement folio (cannot be original hand)</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-070v:0.8863,0.8178,0.0257,0.0199</cell>
+            <cell>urn:cite:hmt:e3.e3-70v</cell>
+            <cell>bottom</cell>
+            <cell>9</cell>
+            <cell>Θ </cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-071r:0.7129,0.818,0.0177,0.0199</cell>
+            <cell>urn:cite:hmt:e3.e3-71r</cell>
+            <cell>top</cell>
+            <cell>10</cell>
+            <cell>Ι</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-079r:0.0957,0.8043,0.0289,0.0253</cell>
+            <cell>urn:cite:hmt:e3.e3-79r</cell>
+            <cell>top</cell>
+            <cell>11</cell>
+            <cell>ΙΑ</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-085v:0.9137,0.898,0.0226,0.0191</cell>
+            <cell>urn:cite:hmt:e3.e3-85v</cell>
+            <cell>bottom</cell>
+            <cell>11</cell>
+            <cell>ΙΑ</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-086r:0.0857,0.8093,0.0269,0.0221</cell>
+            <cell>urn:cite:hmt:e3.e3-86r</cell>
+            <cell>top</cell>
+            <cell>12</cell>
+            <cell>ΙΒ </cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-093v:0.9063,0.9006,0.0171,0.0169</cell>
+            <cell>urn:cite:hmt:e3.e3-93v</cell>
+            <cell>bottom</cell>
+            <cell>12</cell>
+            <cell>ΙΒ </cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-094r:0.04,0.8041,0.0223,0.0231</cell>
+            <cell>urn:cite:hmt:e3.e3-94r</cell>
+            <cell>top</cell>
+            <cell>13</cell>
+            <cell>ΙΓ </cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-099v:0.922,0.901,0.0229,0.0197</cell>
+            <cell>urn:cite:hmt:e3.e3-99v</cell>
+            <cell>bottom</cell>
+            <cell>13</cell>
+            <cell>ΙΓ </cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-100r:0.0597,0.8133,0.0291,0.0219</cell>
+            <cell>urn:cite:hmt:e3.e3-100r</cell>
+            <cell>top</cell>
+            <cell>14</cell>
+            <cell>ΙΔ </cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-107v:0.9203,0.8988,0.0271,0.0206</cell>
+            <cell>urn:cite:hmt:e3.e3-107v</cell>
+            <cell>bottom</cell>
+            <cell>14</cell>
+            <cell>ΙΔ </cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-108r:0.146,0.7752,0.0217,0.0227</cell>
+            <cell>urn:cite:hmt:e3.e3-108r</cell>
+            <cell>top</cell>
+            <cell>15</cell>
+            <cell>ΙΕ</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-115v:0.8854,0.8909,0.026,0.0212</cell>
+            <cell>urn:cite:hmt:e3.e3-115v</cell>
+            <cell>bottom</cell>
+            <cell>15</cell>
+            <cell>ΙΕ</cell>
+          </row>
+          
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-116r:0.1471,0.7908,0.0251,0.0163</cell>
+            <cell>urn:cite:hmt:e3.e3-116r</cell>
+            <cell>top</cell>
+            <cell>16</cell>
+            <cell>ΙϚ, cut off</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-123v:0.9077,0.8834,0.0186,0.0216</cell>
+            <cell>urn:cite:hmt:e3.e3-123v</cell>
+            <cell>bottom</cell>
+            <cell>16</cell>
+            <cell>ΙϚ, cut off</cell>
+          </row>
+          
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-124r:0.1606,0.7739,0.0243,0.0251</cell>
+            <cell>urn:cite:hmt:e3.e3-124r</cell>
+            <cell>top</cell>
+            <cell>17</cell>
+            <cell>ΙΖ </cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-131v:0.9203,0.8868,0.0191,0.0191</cell>
+            <cell>urn:cite:hmt:e3.e3-131v</cell>
+            <cell>bottom</cell>
+            <cell>17</cell>
+            <cell>ΙΖ</cell>
+          </row>
+          
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-132r:0.1357,0.7823,0.0223,0.0214</cell>
+            <cell>urn:cite:hmt:e3.e3-132r</cell>
+            <cell>top</cell>
+            <cell>18</cell>
+            <cell>ΙΗ</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-139v:0.8929,0.8851,0.0223,0.0204</cell>
+            <cell>urn:cite:hmt:e3.e3-139v</cell>
+            <cell>bottom</cell>
+            <cell>18</cell>
+            <cell>ΙΘ, mislabeled as 19</cell>
+          </row>
+          
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-140r:0.134,0.7928,0.0183,0.0197</cell>
+            <cell>urn:cite:hmt:e3.e3-140r</cell>
+            <cell>top</cell>
+            <cell>19</cell>
+            <cell>ΙΘ</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-147v:0.8803,0.8693,0.0254,0.0253</cell>
+            <cell>urn:cite:hmt:e3.e3-147v</cell>
+            <cell>bottom</cell>
+            <cell>19</cell>
+            <cell>ΙΘ</cell>
+          </row>
+          
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-148r:0.152,0.7782,0.0254,0.0259</cell>
+            <cell>urn:cite:hmt:e3.e3-148r</cell>
+            <cell>top</cell>
+            <cell>20</cell>
+            <cell>Κ </cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-155r:0.1657,0.7745,0.0394,0.027</cell>
+            <cell>urn:cite:hmt:e3.e3-155r</cell>
+            <cell>top</cell>
+            <cell>21</cell>
+            <cell>ΚΑ</cell>
+          </row>
+          
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-163r:0.1797,0.797,0.0243,0.0174</cell>
+            <cell>urn:cite:hmt:e3.e3-163r</cell>
+            <cell>top</cell>
+            <cell>22</cell>
+            <cell>ΚΒ, cut off</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-170v:0.8911,0.8783,0.016,0.0167</cell>
+            <cell>urn:cite:hmt:e3.e3-170v</cell>
+            <cell>bottom</cell>
+            <cell>22</cell>
+            <cell>ΚΒ, cut off</cell>
+          </row>
+          
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-171r:0.1803,0.7902,0.0309,0.0231</cell>
+            <cell>urn:cite:hmt:e3.e3-171r</cell>
+            <cell>top</cell>
+            <cell>23</cell>
+            <cell>ΚΓ </cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-178v:0.8977,0.8712,0.0203,0.0178</cell>
+            <cell>urn:cite:hmt:e3.e3-178v</cell>
+            <cell>bottom</cell>
+            <cell>23</cell>
+            <cell>ΚΓ, cut off</cell>
+          </row>
+          
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-179r:0.2126,0.7838,0.028,0.0229</cell>
+            <cell>urn:cite:hmt:e3.e3-179r</cell>
+            <cell>top</cell>
+            <cell>24</cell>
+            <cell>ΚΔ </cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-186v:0.9137,0.8592,0.0143,0.0199</cell>
+            <cell>urn:cite:hmt:e3.e3-186v</cell>
+            <cell>bottom</cell>
+            <cell>24</cell>
+            <cell>ΚΔ, cut off</cell>
+          </row>
+          
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-187r:0.2329,0.7842,0.0263,0.0195</cell>
+            <cell>urn:cite:hmt:e3.e3-187r</cell>
+            <cell>top</cell>
+            <cell>25</cell>
+            <cell>ΚΕ</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-193v:0.9031,0.8457,0.0126,0.015</cell>
+            <cell>urn:cite:hmt:e3.e3-193v</cell>
+            <cell>bottom</cell>
+            <cell>25</cell>
+            <cell>ΚΕ, cut off</cell>
+          </row>
+          
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-194r:0.228,0.7857,0.0266,0.0206</cell>
+            <cell>urn:cite:hmt:e3.e3-194r</cell>
+            <cell>top</cell>
+            <cell>26</cell>
+            <cell>ΚϚ</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-202r:0.0586,0.7758,0.0297,0.0326</cell>
+            <cell>urn:cite:hmt:e3.e3-202r</cell>
+            <cell>top</cell>
+            <cell>27</cell>
+            <cell>ΚΖ </cell>
+          </row>
+          
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-210r:0.0729,0.7825,0.0191,0.0174</cell>
+            <cell>urn:cite:hmt:e3.e3-210r</cell>
+            <cell>top</cell>
+            <cell>28</cell>
+            <cell>ΚΗ, cut off</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-217v:0.9334,0.8444,0.0117,0.0148</cell>
+            <cell>urn:cite:hmt:e3.e3-217v</cell>
+            <cell>bottom</cell>
+            <cell>28</cell>
+            <cell>ΚΗ, cut off</cell>
+          </row>
+          
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-218r:0.0823,0.7844,0.024,0.0223</cell>
+            <cell>urn:cite:hmt:e3.e3-218r</cell>
+            <cell>top</cell>
+            <cell>29</cell>
+            <cell>ΚΘ, cut off</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-225v:0.9234,0.8491,0.0277,0.0216</cell>
+            <cell>urn:cite:hmt:e3.e3-225v</cell>
+            <cell>bottom</cell>
+            <cell>29</cell>
+            <cell>ΚΘ</cell>
+          </row>
+          
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-226r:0.088,0.7945,0.0229,0.0195</cell>
+            <cell>urn:cite:hmt:e3.e3-226r</cell>
+            <cell>top</cell>
+            <cell>30</cell>
+            <cell>Λ </cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-233v:0.9283,0.83,0.0223,0.0212</cell>
+            <cell>urn:cite:hmt:e3.e3-233v</cell>
+            <cell>bottom</cell>
+            <cell>30</cell>
+            <cell>Λ </cell>
+          </row>
+          
+          <row>
+            <cell>mssing folio to image</cell>
+            <cell>urn:cite:hmt:e3.e3-234r</cell>
+            <cell>top</cell>
+            <cell>31</cell>
+            <cell>ΛΑ</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-241v:0.8794,0.8478,0.0246,0.0221</cell>
+            <cell>urn:cite:hmt:e3.e3-241v</cell>
+            <cell>bottom</cell>
+            <cell>31</cell>
+            <cell>ΛΑ</cell>
+          </row>
+          
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-242r:0.128,0.8172,0.0263,0.0197</cell>
+            <cell>urn:cite:hmt:e3.e3-242r</cell>
+            <cell>top</cell>
+            <cell>32</cell>
+            <cell>ΛΒ, cut off</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-248v:0.8889,0.8725,0.0271,0.024</cell>
+            <cell>urn:cite:hmt:e3.e3-248v</cell>
+            <cell>bottom</cell>
+            <cell>32</cell>
+            <cell>ΛΒ, cut off</cell>
+          </row>
+          
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-249r:0.1497,0.8078,0.0354,0.0281</cell>
+            <cell>urn:cite:hmt:e3.e3-249r</cell>
+            <cell>top</cell>
+            <cell>33</cell>
+            <cell>ΛΓ </cell>
+          </row>
+          <row>
+            <cell>missing folio to image</cell>
+            <cell>urn:cite:hmt:e3.e3-256r</cell>
+            <cell>top</cell>
+            <cell>34</cell>
+            <cell>ΛΔ </cell>
+          </row>
+          
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-264r:0.1466,0.8073,0.0283,0.024</cell>
+            <cell>urn:cite:hmt:e3.e3-264r</cell>
+            <cell>top</cell>
+            <cell>35</cell>
+            <cell>ΛΕ</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-272r:0.1677,0.7925,0.0371,0.0343</cell>
+            <cell>urn:cite:hmt:e3.e3-272r</cell>
+            <cell>top</cell>
+            <cell>36</cell>
+            <cell>ΛϚ</cell>
+          </row>
+          
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-280r:0.146,0.7793,0.028,0.0375</cell>
+            <cell>urn:cite:hmt:e3.e3-280r</cell>
+            <cell>top</cell>
+            <cell>37</cell>
+            <cell>ΛΖ </cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-288r:0.1497,0.8056,0.0291,0.0253</cell>
+            <cell>urn:cite:hmt:e3.e3-288r</cell>
+            <cell>top</cell>
+            <cell>38</cell>
+            <cell>ΛΗ</cell>
+          </row>
+          
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-295v:0.9231,0.8866,0.0163,0.0208</cell>
+            <cell>urn:cite:hmt:e3.e3-295v</cell>
+            <cell>bottom</cell>
+            <cell>38</cell>
+            <cell>ΛΗ, cut off (note that there is no 296)</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-297r:0.1503,0.8041,0.0311,0.0268</cell>
+            <cell>urn:cite:hmt:e3.e3-297r</cell>
+            <cell>top</cell>
+            <cell>39</cell>
+            <cell>ΛΘ (note that there is no 296)</cell>
+          </row>
+          
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-304v:0.8789,0.8826,0.0297,0.0195</cell>
+            <cell>urn:cite:hmt:e3.e3-304v</cell>
+            <cell>bottom</cell>
+            <cell>39</cell>
+            <cell>ΛΘ</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-305r:0.1631,0.814,0.0231,0.0167</cell>
+            <cell>urn:cite:hmt:e3.e3-305r</cell>
+            <cell>top</cell>
+            <cell>40</cell>
+            <cell>Μ, very faded</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-312v:0.8771,0.8877,0.0203,0.0191</cell>
+            <cell>urn:cite:hmt:e3.e3-312v</cell>
+            <cell>bottom</cell>
+            <cell>40</cell>
+            <cell>Μ</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-313r:0.1763,0.7758,0.0357,0.0193</cell>
+            <cell>urn:cite:hmt:e3.e3-313r</cell>
+            <cell>top</cell>
+            <cell>41</cell>
+            <cell>ΜΑ</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-320v:0.88,0.8873,0.0223,0.0184</cell>
+            <cell>urn:cite:hmt:e3.e3-320v</cell>
+            <cell>bottom</cell>
+            <cell>41</cell>
+            <cell>ΜΑ, cut off</cell>
+          </row>
+          <row>
+            <cell>urn:cite:hmt:chsimg.E3-321r:0.2071,0.7878,0.3049,0.0251</cell>
+            <cell>urn:cite:hmt:e3.e3-321r</cell>
+            <cell>top</cell>
+            <cell>42</cell>
+            <cell>ΜΒ, first one is cut off and then rewritten</cell>
+          </row>
+          
+
+
+
+        </table>
+      </div>
+    </body>
+  </text>
+</TEI>
