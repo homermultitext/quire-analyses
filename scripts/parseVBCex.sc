@@ -59,6 +59,8 @@ Stephanie Lindeborg and Neil Curran
 
 Summer, 2012
 
+Thumbnail images are linked to zoomable views.
+
 
 | Image: top of quire | Image: bottom of  quire | Coverage | Observations |
 |:-----------|:-----------|:----------|:----------|
