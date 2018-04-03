@@ -29,7 +29,7 @@ val content = for (l <- lines.tail) yield {
       s"**${urn.objectComponent}** (`${urn}`)"
     } catch {
       case _ : Throwable => {
-          if (cols.size > 2) {cols(2)} else {""}
+          if (cols.size > 2) {s"**${cols(2)}**"} else {""}
       }
     }
 
@@ -39,7 +39,7 @@ val content = for (l <- lines.tail) yield {
        s"**${urn.objectComponent}** (`${urn}`)"
     } catch {
       case _ : Throwable => {
-          if (cols.size > 3) {cols(3)} else {""}
+          if (cols.size > 3) { s"**${cols(3)}**"} else {""}
       }
     }
   val img1Link = try {
@@ -47,7 +47,7 @@ val content = for (l <- lines.tail) yield {
     s"[![](${iipSrvUrl(img)})](${hmtIctBase}?urn=${img})"
   } catch {
     case _ : Throwable => {
-        if (cols.size > 0) {cols(0)} else {""}
+        if (cols.size > 0) {s"**${cols(0)}**"} else {""}
     }
   }
   val img2Link = try {
@@ -55,13 +55,14 @@ val content = for (l <- lines.tail) yield {
     s"[![](${iipSrvUrl(img)})](${hmtIctBase}?urn=${img})"
   } catch {
     case _ : Throwable => {
-        if (cols.size > 1) {cols(1)} else {""}
+        if (cols.size > 1) {s"**${cols(1)}**"} else {""}
     }
   }
 
   val notes = if(cols.size > 5) {cols(5)} else ""
   println(img1Link + " & " + img2Link + " from " + cols)
 
+  println("Num cols == " + cols.size + s"(${cols})")
   val quireNum = cols(4)
   s" **${quireNum}** | ${img1Link} | ${folio1} | ${img2Link} |  ${folio2} | ${notes} "
   //s"[![${folio}](${iipSrvUrl(img)})](${hmtIctBase}?urn=${img}) | ${cols(3)} | Folio ${folio.objectComponent}, **${cols(4)}** marks *${cols(2)}* of quire.  "
