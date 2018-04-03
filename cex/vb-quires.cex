@@ -17,17 +17,17 @@ urn:cite2:hmt:msB.v1:113r-120v#urn:cts:greekLit:tlg0012.tlg001.msB:8.491-9.309#N
 urn:cite2:hmt:msB.v1:121r-128v#urn:cts:greekLit:tlg0012.tlg001.msB:9.310-9.696#urn:cite2:hmt:vbimg.2017a:VB121RN_0565@0.7751,0.8252,0.02284,0.03499#??#
 urn:cite2:hmt:msB.v1:129r-136v#urn:cts:greekLit:tlg0012.tlg001.msB:9.697-10.362#urn:cite2:hmt:vbimg.2017a:VB129RN_0573@0.7647,0.8560,0.02708,0.04039#urn:cite2:hmt:vbimg.2017a:VB136VN_0236@0.8970,0.9105,0.01345,0.01328#The quire number on 136v is very faint.
 urn:cite2:hmt:msB.v1:137r-144v#urn:cts:greekLit:tlg0012.tlg001.msB:10.363-11.166#urn:cite2:hmt:vbimg.2017a:VB137RN_0581@0.8040,0.8515,0.02450,0.03748#N/A#The quire number is not present on 144v.
-urn:cite2:hmt:msB.v1:145r-152v#urn:cts:greekLit:tlg0012.tlg001.msB:11.167-11.554###The quire number on 152v is very faint.
-urn:cite2:hmt:msB.v1:153r-160v#urn:cts:greekLit:tlg0012.tlg001.msB:11.555-12.88###
-urn:cite2:hmt:msB.v1:161r-168v#urn:cts:greekLit:tlg0012.tlg001.msB:12.89-12.471###
-urn:cite2:hmt:msB.v1:169r-176v#urn:cts:greekLit:tlg0012.tlg001.msB:13.1-13.382###The ΚΒ on 176v is very faint.
-urn:cite2:hmt:msB.v1:177r-184v#urn:cts:greekLit:tlg0012.tlg001.msB:13.383-13.765##N/A#The quire number is not present on 184v.
-urn:cite2:hmt:msB.v1:185r-192v#urn:cts:greekLit:tlg0012.tlg001.msB:13.766-14.310###
-urn:cite2:hmt:msB.v1:193r-200v#urn:cts:greekLit:tlg0012.tlg001.msB:14.311-15.165###
-urn:cite2:hmt:msB.v1:201r-208v#urn:cts:greekLit:tlg0012.tlg001.msB:15.166-15.549###
-urn:cite2:hmt:msB.v1:209r-216v#urn:cts:greekLit:tlg0012.tlg001.msB:15.550-16.179##
-urn:cite2:hmt:msB.v1:217r-224v#urn:cts:greekLit:tlg0012.tlg001.msB:16.180-16.563###The quire number on 224v is very faint.
-urn:cite2:hmt:msB.v1:225r-232v#urn:cts:greekLit:tlg0012.tlg001.msB:16.564-17.79###The quire number is not present on 232v.
+urn:cite2:hmt:msB.v1:145r-152v#urn:cts:greekLit:tlg0012.tlg001.msB:11.167-11.554#urn:cite2:hmt:vbimg.2017a:VB145RN_0589@0.8110,0.8448,0.03850,0.05519##The quire number on 152v is very faint.
+urn:cite2:hmt:msB.v1:153r-160v#urn:cts:greekLit:tlg0012.tlg001.msB:11.555-12.88#urn:cite2:hmt:vbimg.2017a:VB153RN_0597@0.7966,0.8519,0.01934,0.02503##
+urn:cite2:hmt:msB.v1:161r-168v#urn:cts:greekLit:tlg0012.tlg001.msB:12.89-12.471#urn:cite2:hmt:vbimg.2017a:VB161RN_0605@0.7887,0.8751,0.03519,0.04412##
+urn:cite2:hmt:msB.v1:169r-176v#urn:cts:greekLit:tlg0012.tlg001.msB:13.1-13.382#urn:cite2:hmt:vbimg.2017a:VB169RN_0613@0.7955,0.8609,0.03279,0.03734##The ΚΒ on 176v is very faint.
+urn:cite2:hmt:msB.v1:177r-184v#urn:cts:greekLit:tlg0012.tlg001.msB:13.383-13.765#urn:cite2:hmt:vbimg.2017a:VB177RN_0621@0.8036,0.8801,0.02542,0.02918#N/A#The quire number is not present on 184v.
+urn:cite2:hmt:msB.v1:185r-192v#urn:cts:greekLit:tlg0012.tlg001.msB:13.766-14.310#urn:cite2:hmt:vbimg.2017a:VB185RN_0629@0.7985,0.8663,0.03943,0.04620##
+urn:cite2:hmt:msB.v1:193r-200v#urn:cts:greekLit:tlg0012.tlg001.msB:14.311-15.165#urn:cite2:hmt:vbimg.2017a:VB193RN_0637@0.7684,0.8845,0.02763,0.04205##
+urn:cite2:hmt:msB.v1:201r-208v#urn:cts:greekLit:tlg0012.tlg001.msB:15.166-15.549#urn:cite2:hmt:vbimg.2017a:VB201RN_0645@0.7813,0.8963,0.02358,0.03831##
+urn:cite2:hmt:msB.v1:209r-216v#urn:cts:greekLit:tlg0012.tlg001.msB:15.550-16.179#urn:cite2:hmt:vbimg.2017a:VB209RN_0653@0.7861,0.8672,0.02929,0.03734#
+urn:cite2:hmt:msB.v1:217r-224v#urn:cts:greekLit:tlg0012.tlg001.msB:16.180-16.563#urn:cite2:hmt:vbimg.2017a:VB217RN_0661@0.7907,0.8779,0.02598,0.04066##The quire number on 224v is very faint.
+urn:cite2:hmt:msB.v1:225r-232v#urn:cts:greekLit:tlg0012.tlg001.msB:16.564-17.79#urn:cite2:hmt:vbimg.2017a:VB225RN_0669@0.8078,0.8729,0.02911,0.04703##The quire number is not present on 232v.
 urn:cite2:hmt:msB.v1:233r-240v#urn:cts:greekLit:tlg0012.tlg001.msB:17.80-17.463#N/A#urn:cite2:hmt:vbimg.2017a:VB240VN_0340@0.8917,0.8816,0.02119,0.01189#The quire number is not present on 233r. Also, both 240r ![240r](http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/hmt/vbimg/2017a/VB240RN_0684.tif&RGN=0.7850,0.8899,0.01290,0.01051&wID=300&CVT=JPEG) and 240v have been labeled with the quire number Λ. It is correctly labeled on 240v, but was mislabeled on 240r.
 urn:cite2:hmt:msB.v1:241r-248v#urn:cts:greekLit:tlg0012.tlg001.msB:17.464-18.85#N/A##The quire number is not present on 241r.
 urn:cite2:hmt:msB.v1:249r-256v#urn:cts:greekLit:tlg0012.tlg001.msB:18.86-18.469#urn:cite2:hmt:vbimg.2017a:VB249RN_0693@0.7931,0.8927,0.02229,0.03084##The quire number on 256v is very faint.
