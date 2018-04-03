@@ -52,11 +52,6 @@ val content = for (l <- lines.tail) yield {
 }
 
 
-val hdrX = """
-
-| Image: front |
-|:-----------|
-"""
 val hdr = """
 # HMT project: quire analysis of Venetus B manuscript
 
@@ -65,7 +60,7 @@ Stephanie Lindeborg and Neil Curran
 Summer, 2012
 
 
-| Image: front | Image: back |Covers | Observations |
+| Image: top of quire | Image: bottom of  quire | Coverage | Observations |
 |:-----------|:-----------|:----------|:----------|
 """
 
