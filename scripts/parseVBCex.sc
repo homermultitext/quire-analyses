@@ -26,29 +26,30 @@ val lines = Source.fromFile(f).getLines.toVector
 val content = for (l <- lines.tail) yield {
   val cols =  l.split("#")
   // Folios#Iliad lines#Image: front#Image: back#Notes
-  val folios = Cite2Urn(cols(0))
-  val iliad = CtsUrn(cols(1))
+  val quireNum = cols(0)
+  val folios = Cite2Urn(cols(1))
+  val iliad = CtsUrn(cols(2))
   val img1Link = try {
-    val img = Cite2Urn(cols(2))
-    s"[![${folios.rangeBegin.trim}](${iipSrvUrl(img)})](${hmtIctBase}?urn=${img})"
-  } catch {
-    case _ : Throwable => {
-        if (cols.size > 2) {cols(2)} else {""}
-    }
-  }
-  val img2Link = try {
     val img = Cite2Urn(cols(3))
     s"[![${folios.rangeBegin.trim}](${iipSrvUrl(img)})](${hmtIctBase}?urn=${img})"
   } catch {
-    case _ : Throwable =>   if (cols.size > 3) {cols(3)} else {""}
+    case _ : Throwable => {
+        if (cols.size > 3) {s"**${cols(3)}**"} else {""}
+    }
+  }
+  val img2Link = try {
+    val img = Cite2Urn(cols(4))
+    s"[![${folios.rangeBegin.trim}](${iipSrvUrl(img)})](${hmtIctBase}?urn=${img})"
+  } catch {
+    case _ : Throwable =>   if (cols.size > 4) {s"**${cols(4)}**"} else {""}
   }
 
-  val notes = if (cols.size  > 4) {
-    cols(4)
+  val notes = if (cols.size  > 5) {
+    cols(5)
   } else {
     ""
   }
-  s"${img1Link} |  ${img2Link} | Folios ${folios.objectComponent} (`${folios}`), *Iliad* ${iliad.passageComponent} | ${notes} "
+  s"**${quireNum}** | ${img1Link} |  ${img2Link} | Folios ${folios.objectComponent} (`${folios}`), *Iliad* ${iliad.passageComponent} | ${notes} "
 }
 
 
@@ -62,8 +63,8 @@ Summer, 2012
 Thumbnail images are linked to zoomable views.
 
 
-| Image: top of quire | Image: bottom of  quire | Coverage | Observations |
-|:-----------|:-----------|:----------|:----------|
+| Quire number | Image: top of quire | Image: bottom of  quire | Coverage | Observations |
+|:-----------|:-----------|:----------|:----------|:----------|
 """
 
 
